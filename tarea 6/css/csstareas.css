@@ -1,0 +1,204 @@
+/*estilos generales*/
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; /* ledctura para navegadores */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+
+}
+
+.contenedor{
+  width: 1200px;
+  margin: 0 auto;
+}
+/*header o encabezado */
+
+
+.encabezado .top-encabezado{
+  padding: 8px 0;
+  font-size: 18px;
+  border-bottom: 1.5px solid #808080;
+  background:  #1c375c;
+  overflow: hidden;
+}
+
+.encabezado .top-encabezado .contenedor .top-menu{
+  float: left;
+}
+.encabezado .top-encabezado .contenedor .top-menu ul{
+  list-style: none;
+}
+.encabezado .top-encabezado .contenedor .top-menu ul li{
+  float: left;
+}
+.encabezado .top-encabezado .contenedor .top-menu ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  display: inline-bloke;
+}
+
+.encabezado .top-encabezado .contenedor .top-menu ul li a:hover{
+  color: #8b919c;
+}
+
+/*css de top redes*/
+
+
+.encabezado .top-encabezado .contenedor .redes{
+  float: right;
+}
+.encabezado .top-encabezado .contenedor .redes ul{
+  list-style: none;
+}
+.encabezado .top-encabezado .contenedor .redes ul li{
+  float: right;
+}
+.encabezado .top-encabezado .contenedor .redes ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  display: inline-bloke;
+}
+
+.encabezado .top-encabezado .contenedor .redes ul li a:hover{
+  color: #8b919c;
+}
+
+
+/*css para el titulo */
+
+.titulo-blog{
+  margin: 35px 0;
+  text-align: center;
+}
+.titulo-blog .contenedor h1 a{
+  text-decoration: none;
+  color: #363940;
+  font-size: 45px;
+  display: inline-block;
+  padding: 0 0;
+  font-weight: bolder;
+  }
+  .titulo-blog .contenedor h1 a:hover{
+  color: #C0C0C0;
+}
+
+  .titulo-blog .contenedor .subtitulo {
+    font-size: 16px;
+    letter-spacing: 1px; /*espacio entre cada letra*/
+    color: #808080;
+  }
+
+  .titulo-blog .contenedor .subtitulo:hover{
+  color:  #1c375c;
+}
+    /*css de menu principal*/
+  .menu-principal{
+    margin-bottom: 10px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: center; /*codigo para indicar el lugar o la alinacion del texto*/
+    padding: 10px 0;
+  }
+
+.menu-principal .contenedor ul{
+  list-style: none;
+  display: inline-block; /*para convertir elemento de linea a elementos de blocke */
+  margin: 0 auto;
+}
+  .menu-principal .contenedor ul li{
+    display: inline-block;
+  }
+
+    .menu-principal .contenedor ul li a{
+      display: inline-block;
+      padding: 10px 10px;
+      text-decoration: none;
+      color: #000000
+    }
+      .menu-principal .contenedor ul li a:hover{
+      color: #808080;
+    }
+
+    /*estilos para banner main e imagenes que casi qeu es lo mismo*/
+    .main .banner{
+      padding-bottom: 20px;
+      border-bottom: 1px solid #000000;
+    }
+
+    .main .banner .contenedor .banner-principal{
+      width: 100%;
+    }
+
+    .main .banner .contenedor .banner-principal img{
+      width: 100%;
+    }
+      /*estilos css para blog y articulos*/
+
+      .blog{
+        padding: 48px 0; /*espacio de una imagen a otra o de contenido a otro*/
+      }
+      .blog .contenedor{
+        overflow: hidden;
+      }
+      /*articulos*/
+      .blog .contenedor .articulos{
+        float: left;
+        width: 100%;
+      }
+      .blog .contenedor .articulos .art{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #000000;
+      }
+
+      /*titulo articulo e imagen*/
+      .blog .contenedor .articulos .art .titulo-articulo{
+        color: #363940;
+        font-size: 0;
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      .blog .contenedor .articulos .art  img{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .blog .contenedor .articulos .art .parrafos{
+        padding: 0 20px;
+        text-align: justify;
+      }
+      .blog .contenedor .articulos .art .parrafos p{
+        margin-bottom: none;
+        color: #000000;
+      }
+      .blog .contenedor .articulos .art .boton{
+        text-align: center;
+      }
+      .blog .contenedor .articulos .art .boton a{
+          text-decoration: none;
+          display: inline-block;
+          padding: 15px 20px;
+          background: none;
+          border: 1px solid #bababa;
+          font-size: none;
+          color: #000000
+      }
+      .blog .contenedor .articulos .art .boton a:hover{
+        background: #7d7d7d;
+        color: #fff
+
+      }
+      /*footer*/
+      .footer{
+        background: #fff;
+        padding: 25px;
+        text-align: center;
+        color: #9c9c9c
+      }
