@@ -1,0 +1,81 @@
+* {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#padre {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#SelectGenero {
+    margin-left: 5px;
+}
+
+#tvs {
+    margin-left: 5px;
+}
+
+#botonregresar {
+    margin-right: 5px;
+}
+
+#app,
+#tvs {
+    width: 50%;
+    background-color: #3d5a80;
+    color: #e0fbfc;
+    float: left;
+}
+
+#app img,
+#tvs img {
+    width: 100px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+#app li,
+#tvs li {
+    list-style: none;
+    margin-left: 5px;
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffb703;
+}
+
+#titulo p {
+    text-align: center;
+    font-size: 25px;
+}
+
+body {
+    background-color: #023047;
+}
+
+.card {
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#ejercicios {
+    margin-top: 100px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60%;
+}
+
+#botonregresar,
+#botonir {
+    background-color: #8ecae6;
+    color: #023047;
+    border-color: #ffb703;
+}
