@@ -1,0 +1,16 @@
+Desde esta ubicacion, abrir la terminal
+escribir:
+npm install
+
+esto instalará las dependencias necesarias para el funcionamiento
+
+para correr el proyecto:
+npm start
+
+abrir el navegador
+localhost:3000
+
+cada vez que haga cambios en las paginas o javascript, se recomienda recarar la paginas
+
+
+

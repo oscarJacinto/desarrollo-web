@@ -1,0 +1,15 @@
+{
+  "name": "clon-netflix",
+  "version": "1.0.0",
+  "description": "tutorial de clonar netflix",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
